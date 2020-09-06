@@ -29,7 +29,7 @@
 		481E0B8D245C3058006D4EBB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		481E0B91245C3109006D4EBB /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		481E84FF247E7A020021B2FE /* UIColor+HexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HexColor.swift"; sourceTree = "<group>"; };
-		482AB2DB24477B4A0023A51B /* Web(json)App(Lesson10).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Web(json)App(Lesson10).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		482AB2DB24477B4A0023A51B /* TopChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		482AB2DE24477B4A0023A51B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		482AB2E024477B4A0023A51B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		482AB2E524477B4A0023A51B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 		482AB2D224477B4A0023A51B = {
 			isa = PBXGroup;
 			children = (
-				482AB2DD24477B4A0023A51B /* Web(json)App(Lesson10) */,
+				482AB2DD24477B4A0023A51B /* TopChart */,
 				482AB2DC24477B4A0023A51B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,12 +72,12 @@
 		482AB2DC24477B4A0023A51B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				482AB2DB24477B4A0023A51B /* Web(json)App(Lesson10).app */,
+				482AB2DB24477B4A0023A51B /* TopChart.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		482AB2DD24477B4A0023A51B /* Web(json)App(Lesson10) */ = {
+		482AB2DD24477B4A0023A51B /* TopChart */ = {
 			isa = PBXGroup;
 			children = (
 				482AB2F424477B920023A51B /* View controllers */,
@@ -86,7 +86,7 @@
 				482AB2F224477B570023A51B /* Suppotrings files */,
 				482AB2EC24477B4C0023A51B /* Info.plist */,
 			);
-			path = "Web(json)App(Lesson10)";
+			path = TopChart;
 			sourceTree = "<group>";
 		};
 		482AB2F224477B570023A51B /* Suppotrings files */ = {
@@ -134,9 +134,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		482AB2DA24477B4A0023A51B /* Web(json)App(Lesson10) */ = {
+		482AB2DA24477B4A0023A51B /* TopChart */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 482AB2EF24477B4C0023A51B /* Build configuration list for PBXNativeTarget "Web(json)App(Lesson10)" */;
+			buildConfigurationList = 482AB2EF24477B4C0023A51B /* Build configuration list for PBXNativeTarget "TopChart" */;
 			buildPhases = (
 				482AB2D724477B4A0023A51B /* Sources */,
 				482AB2D824477B4A0023A51B /* Frameworks */,
@@ -146,9 +146,9 @@
 			);
 			dependencies = (
 			);
-			name = "Web(json)App(Lesson10)";
+			name = TopChart;
 			productName = "Web(json)App(Lesson10)";
-			productReference = 482AB2DB24477B4A0023A51B /* Web(json)App(Lesson10).app */;
+			productReference = 482AB2DB24477B4A0023A51B /* TopChart.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -166,7 +166,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 482AB2D624477B4A0023A51B /* Build configuration list for PBXProject "Web(json)App(Lesson10)" */;
+			buildConfigurationList = 482AB2D624477B4A0023A51B /* Build configuration list for PBXProject "TopChart" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -179,7 +179,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				482AB2DA24477B4A0023A51B /* Web(json)App(Lesson10) */,
+				482AB2DA24477B4A0023A51B /* TopChart */,
 			);
 		};
 /* End PBXProject section */
@@ -358,8 +358,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R262DPBRYZ;
-				INFOPLIST_FILE = "Web(json)App(Lesson10)/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "ruDmitrySedov.Web-json-App-Lesson10-";
+				INFOPLIST_FILE = TopChart/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = ruDmitrySedov.TopChart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -372,8 +372,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R262DPBRYZ;
-				INFOPLIST_FILE = "Web(json)App(Lesson10)/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "ruDmitrySedov.Web-json-App-Lesson10-";
+				INFOPLIST_FILE = TopChart/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = ruDmitrySedov.TopChart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -383,7 +383,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		482AB2D624477B4A0023A51B /* Build configuration list for PBXProject "Web(json)App(Lesson10)" */ = {
+		482AB2D624477B4A0023A51B /* Build configuration list for PBXProject "TopChart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				482AB2ED24477B4C0023A51B /* Debug */,
@@ -392,7 +392,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		482AB2EF24477B4C0023A51B /* Build configuration list for PBXNativeTarget "Web(json)App(Lesson10)" */ = {
+		482AB2EF24477B4C0023A51B /* Build configuration list for PBXNativeTarget "TopChart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				482AB2F024477B4C0023A51B /* Debug */,
