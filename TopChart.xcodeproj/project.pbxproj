@@ -27,7 +27,7 @@
 		481C3583244EECE400D4503B /* ArtistInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistInfoViewController.swift; sourceTree = "<group>"; };
 		481C3585244EF77600D4503B /* CurrentArtistInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentArtistInfoModel.swift; sourceTree = "<group>"; };
 		481E0B8D245C3058006D4EBB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		481E0B91245C3109006D4EBB /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		481E0B91245C3109006D4EBB /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CollectionViewCell.swift; path = "../View controllers/CollectionViewCell.swift"; sourceTree = "<group>"; };
 		481E84FF247E7A020021B2FE /* UIColor+HexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HexColor.swift"; sourceTree = "<group>"; };
 		482AB2DB24477B4A0023A51B /* TopChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		482AB2DE24477B4A0023A51B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		482AB2EC24477B4C0023A51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		482AB2F824477C800023A51B /* CurrentChartsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentChartsModel.swift; sourceTree = "<group>"; };
 		483278612451CC1D00037321 /* SearchResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultModel.swift; sourceTree = "<group>"; };
-		4880688C244A043500AE9DBA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		4880688C244A043500AE9DBA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkManager.swift; path = ../NetworkManager.swift; sourceTree = "<group>"; };
 		4880688E244A05DC00AE9DBA /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,10 +104,10 @@
 		482AB2F324477B8C0023A51B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				48EB21E0252A2BBE009ECE8E /* Managers */,
 				482AB2F824477C800023A51B /* CurrentChartsModel.swift */,
 				481C3585244EF77600D4503B /* CurrentArtistInfoModel.swift */,
 				483278612451CC1D00037321 /* SearchResultModel.swift */,
-				4880688C244A043500AE9DBA /* NetworkManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -117,7 +117,6 @@
 			children = (
 				481E84FE247E78C00021B2FE /* Extensions */,
 				481E0B8D245C3058006D4EBB /* MainViewController.swift */,
-				481E0B91245C3109006D4EBB /* CollectionViewCell.swift */,
 				481C3583244EECE400D4503B /* ArtistInfoViewController.swift */,
 			);
 			path = "View controllers";
@@ -126,9 +125,18 @@
 		482AB2F524477BA90023A51B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				481E0B91245C3109006D4EBB /* CollectionViewCell.swift */,
 				482AB2E424477B4A0023A51B /* Main.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		48EB21E0252A2BBE009ECE8E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				4880688C244A043500AE9DBA /* NetworkManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
